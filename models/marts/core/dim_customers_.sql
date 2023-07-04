@@ -1,3 +1,17 @@
+-- Table >> Table
+-- 3.48s
+-- 2.70s
+
+-- View >> Table
+-- 2.81s
+-- 3.28s
+
+--Ephemeral >> Table
+-- 0
+-- 4.34s
+
+
+
 with customers as (
     select * from {{ ref('stg_customers_')}}
 ),

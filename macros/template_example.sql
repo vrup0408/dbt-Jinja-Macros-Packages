@@ -1,7 +1,7 @@
 {% macro template_example() %}
 
     {% set query %}
-        select true as bool
+        select true as bool;
     {% endset %}
 
     {% if execute %}
